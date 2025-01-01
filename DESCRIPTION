@@ -1,11 +1,13 @@
 Package: pgbUtils
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Personal Function Kit
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Pablo Gomez Barreiro
+Maintainer: The package maintainer <pablogomezbrf@hotmail.es>
+Description: A hodgepodge of functions designed for personal use.
+License: CC0
 Encoding: UTF-8
 LazyData: true
+Imports:
+  ggplot2
+RoxygenNote: 7.3.2

@@ -2,13 +2,12 @@
 #'
 #' This function provides a customized ggplot2 theme with specific text, axis, grid, and legend styles.
 #' It is designed to be consistent with the visual preferences for PGB plots.
-#'
+#' @importFrom ggplot2 theme
+#' @importFrom ggplot2 element_text
+#' @importFrom ggplot2 element_line
+#' @importFrom ggplot2 element_blank
+#' @importFrom ggplot2 element_rect
 #' @return A ggplot2 theme object.
-#' @examples
-#' library(ggplot2)
-#' ggplot(mtcars, aes(x = wt, y = mpg)) +
-#'   geom_point() +
-#'   theme_pgb()
 #' @export
 #'
 theme_pgb <- function() {
